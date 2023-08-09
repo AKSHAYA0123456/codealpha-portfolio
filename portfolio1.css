@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg {
+    background-image: url("https://e0.pxfuel.com/wallpapers/464/624/desktop-wallpaper-cute-plain-background-simple-pink-cute.jpg");
+    background-size: cover;
+}
+.bg-full {
+    background-image: url("https://e0.pxfuel.com/wallpapers/464/624/desktop-wallpaper-cute-plain-background-simple-pink-cute.jpg");
+    background-size: cover;
+    height:100vh;
+}
+.img1{
+    height:30vh;
+    border-radius:5px;
+    width:50%
+}
+.heading {
+    color: black;
+    font-family: "Serif";
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.head {
+    color: black;
+    font-family: "Serif";
+}
+
+.skills-hd {
+    color: black;
+    font-family: "Serif";
+    text-decoration: underline;
+    font-weight: normal;
+}
+
+.card {
+    background-color: transparent;
+    border-width: 0px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.card1 {
+    border-radius: 10px;
+    text-align: center;
+    width: 50%;
+}
+
+.imgs {
+    height: 25vh;
+    border-radius: 10px;
+    width: 80%;
+}
+
+.img {
+    height: 17vh;
+    width: 70%;
+    text-align: center;
+    margin-left: 25px;
+}
+
+.p {
+    color: black;
+}
+
+.card-para {
+    font-family: "Serif";
+    text-align: center;
+}
+
+@keyframes slideInFromRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slide-in-from-right {
+    animation: slideInFromRight 1s ease-in-out;
+}
+
+@keyframes slideInFromBottom {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slide-in-from-bottom {
+    animation: slideInFromBottom 1s ease-in-out;
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.slide-in-left {
+    animation: slideInLeft 1s ease-in-out;
+}
+
+@keyframes slideInFromBottom {
+    from {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.slide-in-from-bottom {
+    animation: slideInFromBottom 1s ease-in-out;
+}
+
+.para {
+    color: black;
+    font-family: "Caveat";
+    font-weight: bold;
+    font-style: italic;
+}
+
+.message-bar {
+    display: block;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 6px;
+    border: 0 solid white;
+    color: white;
+    padding: 15px 15px;
+    margin: 15px 0;
+    box-shadow: 1px 1px 2px white;
+}
+
+.input-bars {
+    display: block;
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 6px;
+    border: 0 solid white;
+    color: white;
+    padding: 0 15px;
+    margin: 15px 0;
+    box-shadow: 1px 1px 2px white;
+}
+
+.btn {
+    text-align: center;
+    background-color: transparent;
+    border-width: 2px;
+    border-color: black;
+}
